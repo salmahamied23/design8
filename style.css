@@ -1,0 +1,400 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+.navv{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+position: relative;
+z-index: 1;
+}
+
+.cover{
+background-size: cover;
+height: 680px;
+width: 100%;
+position: absolute;
+z-index: -1;
+}
+.div1{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    margin: 10px;
+}
+ a{
+    text-decoration: none;
+    margin: auto;
+    padding: 20px;
+    color: black;
+}
+.div2{
+    display: flex;
+  justify-content: right; 
+  direction: rtl;
+  width: 75px;
+  margin: auto; 
+  margin-right:45px;
+  position: relative;
+z-index:1 ;
+}
+
+ .image{ 
+    display: flex;
+    justify-content: right;
+    width: 75px;
+    height:30px;
+    margin-top:18px;
+    position: absolute;
+    z-index:-1;
+
+ }
+ .span{
+    color: rgb(135, 83, 184);
+ }
+
+.login{
+    display: flex;
+    justify-content:right;
+    padding: auto;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 23px;
+}
+.section1{
+display: flex;
+justify-content: space-around;
+direction: rtl;
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .section1{
+        flex: 25%;
+    }  
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .section1{
+        flex: 50%;
+    }  
+}
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .section1{
+        flex: 100%;
+    }  
+}
+
+
+.photo{
+    display: flex;
+}
+.land{
+    margin: auto;
+    margin-top:0x;
+    margin-right: 0px;
+    position: relative;
+z-index: -1;
+
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .navv{
+        flex: 25%;
+    }
+    
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .navv{
+        flex: 50%;
+    }  
+}
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .navv{
+        flex: 100%;
+    }  
+}
+
+
+
+.mask{
+    position: absolute;
+    z-index: 1;
+    margin-right: 210px;
+    margin-top: 42px;
+}
+.cloud{
+position: absolute;
+z-index: 1;
+margin-top: 335px;
+margin-right: 145px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 150PX;
+    margin-left: 90px;
+
+}
+P{
+    font-size: 24PX;
+    margin-top: 0PX;
+    margin-left: 85px;
+}
+.h1{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.waves{
+    margin-top:425px;
+    margin-right: 300px;
+    position: absolute;
+    z-index:1;
+}
+.section2{
+    display: flex;
+    /* background-image: url(second_section_.png ) ; */
+    position: relative;
+    z-index: 1;
+
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .section2{
+        flex: 25%;
+    }  
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .section2{
+        flex: 50%;
+    }  
+}
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .section2{
+        flex: 100%;
+    }  
+}
+
+
+.check1{
+font-size: 15px;
+width: 220px;
+margin-left: 0px;
+
+}
+.check2{
+    font-size: 15px;
+width: 220px;
+margin-left: 0px;
+
+}
+.backgroud{
+    background-size: cover;
+    width: 800px;
+    margin-left: 370px;
+    margin-top: 8px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.div3{
+    margin-left: 250px;
+    margin-top: 70px;
+    }
+    .div4{
+        margin-left: 160px;
+        margin-top:170px;
+        /* position: absolute; */
+        /* z-index: 1; */}
+.section3{
+display: flex;
+justify-content: space-between;
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .section3{
+        flex: 25%;
+    }  
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .section3{
+        flex: 50%;
+    }  
+}
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .section3{
+        flex: 100%;
+    }  
+}
+
+
+.why{
+    font-size: 15px;
+    width: 220px;
+}
+.growing{
+    font-size: 15px;
+    width: 220px;
+    margin-left: 0px;
+}
+.div5{
+position: relative;
+padding: 0px;
+margin-left: 200px;
+}
+.div6{
+margin-right: 100px;
+}
+.kudzoka{
+    position: absolute;
+    z-index: -1;
+}
+.why{
+    position: absolute;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: px;
+    color: white;
+}
+     .kudzoka2{
+        position: absolute;
+        margin-top: 105px;
+        margin-right: 50px;
+        font-size: 25px;
+        color: white;
+
+     }
+    .section4{
+        display: flex;
+        justify-content:space-around;
+        margin-top: 200px;
+    }
+    @media only screen and (min-width:600px) and (max-width:768px){
+        .section4{
+            flex: 25%;
+        }  
+    }
+    @media only screen and (min-width:768px) and (max-width:992px){
+        .section4{
+            flex: 50%;
+        }  
+    }
+    @media only screen and (min-width:992px) and (max-width:1400px){
+        .section4{
+            flex: 100%;
+        }  
+    }
+    
+    
+
+.div7{
+    margin-left: 100px;
+}
+.div8{
+    margin-top: -80px;
+}
+.Round{
+    margin-top: -30px;
+    /* margin-left: 400pxpx; */
+}
+.section5{
+position: relative;
+width: 1300px;
+height: 300px;
+margin-bottom:0px;
+padding: 0;
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .section5{
+        flex: 25%;
+    }  
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .section5{
+        flex: 50%;
+    }  
+}
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .section5{
+        flex: 100%;
+    }  
+}
+
+
+.back{
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+
+}
+.boy{
+    margin-right:px;
+    margin-left: 610px;
+    margin-bottom: 0;
+    margin-top: 47px;
+}
+.font{
+    font-size: 5px;
+    margin-left: 45px;
+    margin-top: -15px;
+
+
+}
+.pla{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.applestore{
+    font-size: 10px;
+    margin-top: px;
+    margin-left: 45px;
+}
+.playstore{
+    font-size: 10px;
+    margin-left: 45px;
+    margin-top: px;
+
+}
+.play{
+padding: 5px;
+margin-top: -200px;
+position: relative;
+margin-left: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+.bot1{
+    position: absolute;
+    z-index: -1;
+}
+.bot2{
+    position: absolute;
+    z-index: -1;
+}
+.app{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+    .apple{
+        padding: 5px;
+        position: relative;
+        margin-top: -200px;
+        margin-left: 65px;
+
+    }
+    .social{
+        margin-left: 70px;
+        margin-top: -170px;
+        padding: 30px;
+    }
+    .aa{
+        color: white;
+        font-size: 12px;
+    }
